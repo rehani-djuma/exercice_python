@@ -1,0 +1,70 @@
+# # -/un programme aui affiche le nom,age,taille et si il est etudiant-/
+
+# # """ nom=input("entrez voter nom :")
+# # prenom=input("entrez votre prenom :")
+# # age=input("entrez votre age: ")
+# # taille=input("quel est votre taille :")
+# # etudiant=input("etudiant (oui/nom) :")
+
+# # print("je repond au nom de:",nom)
+# # print("est mon prenom c'est :",prenom)
+# # print("j'ai :",age)
+# # print("je mesure :",taille)
+# # print(etudiant) """
+# ======================================================================================
+#                        #la fonction int et float
+# #la fonction int ou float permet de transformer la variable string en format integer.
+
+# # nom=input("entrez voter nom :")
+# # prenom=input("entrez votre prenom :")
+# # age=int(input("entrez votre age: "))
+# # taille=float(input("quel est votre taille :"))
+# # etudiant=input("etudiant (oui/nom) :")
+
+# # print("je repond au nom de:",nom)
+# # print("est mon prenom c'est :",prenom)
+# # print("j'ai :",age)
+# # print("je mesure :",taille)
+# # print(etudiant)
+# =========================================================================
+# age=int(input("entrez votre ag : "))
+# print("dans 10 ans, tu auras",age+10,"ans")
+# ==========================================================================
+
+# """ les conditions IF et ELSE """
+# un programme qui demande a l'utudiant d'entrer les points,si point>=50 affiche reusi
+# si inferieur le programme affiche echec
+
+# point=int(input("entrer les points : "))
+# if point >= 70:
+#     print("excellent")
+# elif 50<=point<=69:
+#     print("reussi")
+# elif  50>=point:
+#     print("echoue")
+#  ===================================================================
+# un programme pour la banque (si salaire est>= 2000000 pret accorder,entre 1000000 et 1999999
+# le dossier encour d'analyse,inferieur 1000000 pret defuser)
+# salaire=int(input("entrez votre salaire : "))
+# if salaire>=2000000:
+#     print("pret accorder")
+# elif 1000000<=salaire<=1999999:
+#     print("le dossier encour")
+# elif salaire<1000000:
+#     print("votre demande de pret est refusee")
+#  =======================================================================
+# un programe qi calcule les notes et classr les eleves selons leur Note
+
+note=int(input("entrez les notes d'un etudiant :"))
+if 90<=note<=100:
+    print("excellent")
+elif 70<=note<=89:
+    print("tres biens")
+elif 50<=note<69:
+    print("reussi")
+elif 0<=note<49:
+    print("echoue")
+else:
+    print("echouer")
+
+
