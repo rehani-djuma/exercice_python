@@ -162,3 +162,10 @@
 # fruits = ['Pomme', 'Banane', 'Orange', 'Mangue']
 # for fruits_un in fruits:
 #     print(fruits_un)
+
+#=================================================================
+#AFFICHAGE DES ELEMENTS AVEC LEURS INDICES
+fruits = ['Pomme', 'Banane', 'Orange', 'Mangue']
+for i  in range(len(fruits)):
+    print(i,fruits[i])
+
