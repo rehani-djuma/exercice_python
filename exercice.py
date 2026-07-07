@@ -165,7 +165,7 @@
 
 #=================================================================
 #AFFICHAGE DES ELEMENTS AVEC LEURS INDICES
-fruits = ['Pomme', 'Banane', 'Orange', 'Mangue']
-for i  in range(len(fruits)):
-    print(i,fruits[i])
+# fruits = ['Pomme', 'Banane', 'Orange', 'Mangue']
+# for i  in range(len(fruits)):
+#     print(i,fruits[i])
 
