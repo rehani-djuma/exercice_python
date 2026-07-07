@@ -53,18 +53,112 @@
 # elif salaire<1000000:
 #     print("votre demande de pret est refusee")
 #  =======================================================================
-# un programe qi calcule les notes et classr les eleves selons leur Note
+# un programe qi calcule les notes et classe les eleves selons leur Note
 
-note=int(input("entrez les notes d'un etudiant :"))
-if 90<=note<=100:
-    print("excellent")
-elif 70<=note<=89:
-    print("tres biens")
-elif 50<=note<69:
-    print("reussi")
-elif 0<=note<49:
-    print("echoue")
-else:
-    print("echouer")
+# note=int(input("entrez les notes d'un etudiant :"))
+# if 90<=note<=100:
+#     print("excellent")
+# elif 70<=note<=89:
+#     print("tres biens")
+# elif 50<=note<69:
+#     print("reussi")
+# elif 0<=note<49:
+#     print("echoue")
+# else:
+#     print("echouer")
+
+# ===================================================================
+     #       les operateurs logique (and,or,not)
+# salaire=int(input("entrez le salaire : "))
+# age=int(input("entrer votre age :"))
+# if salaire >=2000000 and age>=18:
+#     print("pret accorder")
+# else:
+#     print("pret refuser")
 
 
+# #      la boucle (while)
+
+# compteur  =  1
+# while compteur  <= 5:
+#     print("rehani")
+
+# =========================================
+# compteur =1
+# while compteur <=5:
+#     print(compteur)
+#     compteur= compteur+1
+# ==================================================
+
+# LA BOUCLE for
+
+# for i in range(1,20,2):
+#     print(i)
+
+# for i in range(1,5):
+#     print(i)
+  
+# =================================================
+# MANUPILATEUR DE TEXTE(LEN,UPPER,LOWER)
+
+# texte=input("ecrire un texte que vous haiter : ")
+# print(texte.upper())
+# print(len(texte))
+# print(texte.lower())
+
+#==============================================================
+#LES LISTES
+#les listes nous permetent de stocker plusieurs variables
+# nombre=[12,34,67,89,89]
+# print(nombre) 
+# print(nombre[0])
+# print(len(nombre))
+#================================================================
+#INSERTION D'UN ELEMENT DANS UNE LISTE avec la fonction append
+# cours=['sql','excel','python']
+# cours.append('power bi')
+# print(cours)
+#====================================================================
+#SUPPRESSION D'UN ELEMENT DANS UNE LISTE AVEC LA FONCTION REMOVE
+
+# cours=['sql','excel','python','power bi']
+# cours.remove('power bi')
+# print(cours)
+
+#=======================================================================
+#AJOUT D'UNE POSITION AVEC LA FONCTION INSERT
+# cours=['sql','python','power bi']
+# cours.insert(1,'excel')
+# print(cours)
+
+#=====================================================================
+#MODIFICATION D'UN ELEMENT DANS UNE LISTE 
+
+# cours=['sql','excel','power bi']
+# cours[1]='tableau'
+# print(cours)
+
+#====================================================================
+# Méthode
+# Rôle
+# append()
+# Ajouter un élément à la fin
+# remove()
+# Supprimer un élément
+# insert()
+# Insérer un élément à une position précise
+# sort()
+# Trier du plus petit au plus grand
+# sort(reverse=True)
+# Trier du plus grand au plus petit
+# #===================================================================
+# cours=['SQL', 'Python', 'Excel', 'Power BI']
+# cours.pop(2)
+# print(cours)
+
+#===============================================================
+#PARCOURIR UNE LISTE AVEC LA BOUCLE for
+
+# fruits = ['Pomme', 'Banane', 'Orange', 'Mangue']
+# for fruits_un in fruits:
+#     print(fruits_un)
